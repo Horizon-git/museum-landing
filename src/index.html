@@ -2,6 +2,9 @@
 <html lang="en" class="page">
   <head>
     <meta charset="UTF-8">
+    <meta
+      name="description"
+      content="You can view new events in our museum, subscribe on newsletter and buy tickets on the events">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAMU Museum</title>
     <link
@@ -30,7 +33,11 @@
           <div class="header__tickets">
             <a href="#events" class="header__link-tickets">Квитки</a>
 
-            <a href="#events" class="square-button square-button--tickets">
+            <a
+              href="#events"
+              class="square-button square-button--tickets"
+              aria-label="tickets"
+            >
               <span class="icon icon--right-arrow"></span>
             </a>
           </div>
@@ -43,7 +50,11 @@
             <span>NA</span>
             <span>MU</span>
           </a>
-          <a href="#menu" class="icon icon--menu icon--menu--mobile"></a>
+          <a
+            href="#menu"
+            class="icon icon--menu icon--menu--mobile"
+            aria-label="menu"
+          ></a>
         </div>
       </div>
     </header>
@@ -216,7 +227,7 @@
               placeholder="E-mail"
               required
             >
-            <button class="square-button square-button--subscription">
+            <button class="square-button square-button--subscription" aria-label="subscription">
               <span class="icon icon--right-arrow"></span>
             </button>
           </form>
@@ -236,11 +247,13 @@
               href="https://www.facebook.com/namu.museum/"
               class="icon icon--facebook"
               target="_blank"
+              aria-label="facebook"
             ></a>
             <a
               href="https://www.instagram.com/namu.museum/"
               class="icon icon--instagram"
               target="_blank"
+              aria-label="instagram"
             ></a>
           </div>
         </div>
