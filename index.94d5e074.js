@@ -1,0 +1,2 @@
+!function(){var e;function i(){window.innerWidth<1280?e||(e=new Swiper(".gallery__slides",{slidesPerView:1,spaceBetween:20,loop:!0,grabCursor:!0,pagination:{el:".custom-pagination",clickable:!0,renderBullet:function(e,i){return'<div class="custom-pagination-item '+i+'"></div>'}},breakpoints:{768:{slidesPerView:2}}})):e&&(e.destroy(),e=void 0)}window.addEventListener("DOMContentLoaded",i),window.addEventListener("resize",i)}();
+//# sourceMappingURL=index.94d5e074.js.map
