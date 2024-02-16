@@ -1,6 +1,6 @@
 # Museum Landing Page
 <p>Landing page for a museum. It is demonstrates actual events, shows the gallery and provides form for the email newsletter.</p>
-<h1><a href="https://horizon-git.github.io/nothing-landing/">LIVE DEMO</a></h1>
+<h1><a href="https://horizon-git.github.io/museum-landing/">LIVE DEMO</a></h1>
 <h1><a href="https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1">MOCKUP</a></h1>
 
 # Technologies used
