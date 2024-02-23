@@ -1,11 +1,11 @@
 .events {
   margin-top: 70px;
 
-  @include onTablet {
+  @include on-tablet {
     margin-top: 88px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     margin-top: 200px;
   }
 
@@ -14,13 +14,13 @@
     text-align: center;
     margin-block: 0 40px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 48px;
       text-align: left;
       margin-bottom: 48px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-bottom: 56px;
     }
   }
@@ -28,11 +28,11 @@
   &__container {
     padding-inline: 20px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-inline: 34px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       padding-inline: 55px;
     }
   }

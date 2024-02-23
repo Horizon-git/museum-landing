@@ -24,15 +24,15 @@
     top: 27px;
     left: 20px;
 
-    @include onTablet {
+    @include on-tablet {
       display: none;
     }
   }
 
   &--menu--tablet {
     display: none;
-  
-    @include onTablet {
+
+    @include on-tablet {
       display: block;
     }
   }

@@ -1,15 +1,15 @@
 .exhibition {
   margin-bottom: 60px;
 
-  @include onTablet {
+  @include on-tablet {
     margin-bottom: 64px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     margin-bottom: 104px;
   }
 
-  @include pageGrid;
+  @include page-grid;
 
   &__image {
     width: 100%;
@@ -17,15 +17,15 @@
     grid-column: 1 / -1;
     object-fit: cover;
 
-    @include onTablet {
+    @include on-tablet {
       height: 520px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 8 / 1;
 
       @include scale(1.1);
-      
+
       transform-origin: left;
     }
   }
@@ -34,12 +34,12 @@
     margin-top: 16px;
     grid-column: 1 / -1;
 
-    @include onTablet {
+    @include on-tablet {
       margin-top: 44px;
       grid-column: 5 / 1;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-block: auto;
       grid-column: 9 / -1;
     }
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: space-between;
 
-    @include onTablet {
+    @include on-tablet {
       gap: 30px;
       font-size: 14px;
       justify-content: start;
@@ -76,7 +76,7 @@
     font-weight: 400;
     margin-block: 10px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 36px;
       margin-block: 32px 15px;
     }
@@ -91,7 +91,7 @@
     top: 2px;
     left: 15px;
 
-    @include onTablet {
+    @include on-tablet {
       width: 15px;
       height: 15px;
     }

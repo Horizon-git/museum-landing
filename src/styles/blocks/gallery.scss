@@ -2,12 +2,12 @@
   margin-block: 43px 100px;
   padding-inline: 20px;
 
-  @include onTablet {
+  @include on-tablet {
     padding-inline: 34px;
     margin-bottom: 92px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     padding-inline: 55px;
     margin-bottom: 200px;
   }
@@ -17,13 +17,13 @@
     margin-block: 0 40px;
     font-size: 36px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 48px;
       text-align: start;
       margin-block: 0 48px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-bottom: 56px;
     }
   }
@@ -35,7 +35,7 @@
     object-position: center;
     transform: scaleX(-1);
 
-    @include onTablet {
+    @include on-tablet {
       height: 543px;
     }
   }
@@ -47,14 +47,14 @@
     justify-content: center;
     align-items: center;
 
-    @include onTablet {
+    @include on-tablet {
       margin-top: 32px;
     }
   }
 }
 
 #gallery {
-  @include onDesktop {
+  @include on-desktop {
     .swiper {
       overflow: initial;
     }
@@ -68,6 +68,7 @@
     .swiper-slide {
       width: 100%;
       position: relative;
+
       @include scale(1.05);
     }
 

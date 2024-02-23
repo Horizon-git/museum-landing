@@ -9,35 +9,37 @@
   @include hover(transform, scale($_property));
 }
 
-@mixin onTablet {
+@mixin on-tablet {
   @media (min-width: $tablet-min-width) {
     @content;
   }
 }
 
-@mixin onDesktop {
+@mixin on-desktop {
   @media (min-width: $desktop-min-width) {
     @content;
   }
 }
 
-@mixin pageGrid {
+@mixin page-grid {
   --columns: 2;
+
   display: grid;
   column-gap: 20px;
   grid-template-columns: repeat(var(--columns), 1fr);
 
-  @include onTablet {
+  @include on-tablet {
     --columns: 6;
+
     column-gap: 30px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     --columns: 12;
   }
 }
 
-@mixin hoverUnderline {
+@mixin hover-underline {
   &::after {
     content: "";
     display: block;

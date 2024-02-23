@@ -13,14 +13,14 @@
     gap: 24px;
     margin: 0 auto;
 
-    @include onTablet {
+    @include on-tablet {
       padding: 40px 34px;
       flex-direction: row;
       gap: 38px;
       max-width: 768px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       padding: 40px 56px 48px;
       gap: 102px;
       max-width: 1280px;
@@ -31,11 +31,11 @@
     display: flex;
     gap: 28px;
 
-    @include onTablet {
+    @include on-tablet {
       gap: 38px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       gap: 102px;
     }
   }
@@ -45,7 +45,7 @@
     height: 1px;
     background: rgba(255, 255, 255, 0.50);
 
-    @include onTablet {
+    @include on-tablet {
       width: 1px;
       height: 145px;
     }

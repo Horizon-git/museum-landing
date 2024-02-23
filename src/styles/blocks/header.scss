@@ -1,16 +1,16 @@
 .header {
   --header-img-height: 300px;
 
-  @include onTablet {
+  @include on-tablet {
     --header-img-height: 384px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     --header-img-height: 655px;
   }
 
   &__container {
-    @include pageGrid;
+    @include page-grid;
   }
 
 
@@ -20,13 +20,13 @@
     padding: 20px 20px 0;
     position: relative;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: span 3;
       margin: 0;
       padding: 39px 0 0 34px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: span 5;
       padding-left: 55px;
     }
@@ -45,14 +45,14 @@
     height: var(--header-img-height);
     justify-content: center;
 
-    @include onTablet {
+    @include on-tablet {
       position: static;
       grid-column: 4 / -1;
       justify-content: start;
       background-position: 50%;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 6 / -1;
     }
   }
@@ -68,14 +68,14 @@
 
     @include scale(1.2);
 
-    @include onTablet {
+    @include on-tablet {
       width: 220px;
       height: 72px;
       padding-top: 15px;
       font-size: 36px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 170px;
       height: 72px;
     }
@@ -87,14 +87,14 @@
     font-size: 45px;
     margin: 0;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 54px;
       margin-top: 64px;
       text-align: start;
       line-height: 120%;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       font-size: 72px;
       margin-top: 143px;
     }
@@ -104,12 +104,12 @@
     display: flex;
     margin-top: 20px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-top: 38px;
       width: 270px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-top: 89px;
       margin-left: auto;
     }
@@ -186,7 +186,7 @@
 
     }
 
-    @include onDesktop {
+    @include on-desktop {
       display: flex;
     }
   }
